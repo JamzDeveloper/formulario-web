@@ -1,0 +1,77 @@
+*{
+    font-family: "open sans";
+    box-sizing: border-box;
+    background-color:#b7b2ef;
+}
+:root{
+   --color-fondo: #2c3e50;
+}
+
+.container{
+    background-color: var(--color-fondo) !important;
+    height: 500px;
+    width: 430px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    padding: 2px 35px;
+    box-shadow: 0px 0px 20px #001337;
+    color: #d0e0ff;
+}
+form{
+    background-color: var(--color-fondo) !important;
+}
+.container__form-title{
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+
+    background-color: var(--color-fondo) !important;
+
+}
+.input{
+    display: block;
+    margin-top: 25px;
+    height: 35px;
+    width: 100%;
+    outline:1.5px solid #00359d;
+    background-color: var(--color-fondo);
+    border: none;
+    font-size: 17px;
+    color:#fff;
+
+}
+#deacuerdo,#deacuerdo-etiqueta{
+    margin-top: 15px;
+    color: #fff;
+    background-color: var(--color-fondo) !important;
+
+}
+#deacuerdo-etiqueta >a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16.5px;
+    background-color: var(--color-fondo) !important;
+    
+}
+#registrar{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #377aff;
+    color: #d0e0ff ;
+    font-size: 20px;
+    border: none;
+}
+
+p{
+    margin-top: 35px;
+    text-align: center;
+    background-color: var(--color-fondo) !important;
+
+}
+.cuenta> a{
+    color: #fff;
+    background-color: var(--color-fondo) !important;
+
+}
